@@ -1,0 +1,94 @@
+
+.titlePlanos{
+    display: flex;
+    justify-content: center;
+    margin-top: 4%;
+    font-size: larger;
+}
+
+.containerPlanos{
+    display: flex;
+    justify-content: center;
+    margin-top: 4%;
+    gap: 30px;
+}
+
+.planoFree{
+    width: 300px;
+    height: 300px;
+    border: solid 1px #fb8f6d;
+    padding: 10px;
+    background-color: #dad4d4;
+}
+
+.planoPlus{
+    width: 300px;
+    height: 300px;
+    border: solid 0.7px #5b2f2d;
+    padding: 10px;
+    background-color: #fb8f6d;
+    color: white;
+}
+
+.planos{
+    text-decoration: none;
+    color: #5b2f2d;
+
+}
+li{
+    list-style-type: none;
+}
+
+/*Plano free */
+.planoFree > h2{
+    margin-top: 5%;
+}
+.planoFree > h2, .basicoFree{
+    display: flex;
+    justify-content: center;
+}
+
+.planoFree > h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 18%;
+}
+
+.intro {
+    margin-top: 5%;
+    margin-left: 3%;
+    font-weight: bold;
+}
+
+ul > li{
+    margin-left: 7%;
+    margin-top: 1%;
+}
+
+/*Plano plus */
+
+.planoPlus > h2{
+    margin-top: 5%;
+}
+
+.planoPlus > h2, .aoVivo{
+    display: flex;
+    justify-content: center;
+}
+
+.planoPlus > h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 18%;
+    color: #5b2f2d;
+}
+
+.planoPlus > hr{
+    border-color: white;
+}
+
+.Tema{
+    margin-top: 5%;
+    margin-left: 3%;
+    font-weight: bold;
+}

@@ -1,0 +1,60 @@
+.ContainerRodape{
+    margin-top: 40px;
+    width: 100%;
+    border: solid ;
+    background-color: #5b2f2d;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.containerArt{
+    display: flex;
+    flex-direction: column;
+}
+
+.logoRodape{
+    color: white;
+    font-size: 70px;
+    font-weight: bold;
+    margin-top: 5% ;
+    margin-left: 7%;
+    margin-bottom: 1%;
+}
+
+.ContainerRedes{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-left: 5%;
+    margin-bottom: 15%;
+}
+
+.logos{
+    color: #fb8f6d;
+}
+
+.linkLogos{
+    color: white;
+    text-decoration: none;
+    font-size: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+.introSup{
+    color: white;
+    margin-top: 60%;
+    margin-bottom: 10px;
+}
+
+.introPag{
+    color: white;
+    margin-top: 11%;
+    margin-bottom: 3%;
+}
+
+.listPag{
+    gap: 10px;
+}
+

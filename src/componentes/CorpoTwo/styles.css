@@ -1,0 +1,106 @@
+body {
+    color: #5b2f2d;
+  }
+  .containerParagrafo {
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .paragrafo {
+    color: #5b2f2d;
+    font-weight: bold;
+  
+    font-size: 24px;
+  }
+  
+  hr {
+    width: 80%;
+    margin-left: 10%;
+    border-color: #fb8f6d;
+  }
+  .hrTop {
+    margin-top: 20%;
+  }
+  .backTwoCorpo {
+    background-color:#fb8f6d;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  
+  .ContainerButton {
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .button1 {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    padding: 0.3%;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    border: none;
+    font-family: "minhaFonte";
+    font-weight: bold;
+    font-size: 30px;
+    width: 30%;
+    margin-top: 3%;
+  }
+  .cursosGerais {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .ContainerCursos {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+  }
+  
+  .cursoBasico {
+    display: flex;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    background-color: #eca38d;
+    border: none;
+    border-radius: 5px;
+    padding: 25px;
+    color: #5b2f2d;
+    font-weight: bold;
+  }
+  .containerDescricao {
+    background-color: #eca38d;
+    margin-bottom: 20px;
+    
+  }
+  
+  .Descricao {
+    padding: 20px;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  .MaisCursos{
+    padding: 4%;
+  }
+  
+  .MaisCursos > a{
+    text-decoration: none;
+    content: "";
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .MaisCursos > a:hover{
+    color: black;
+    transition: all 0.5s;
+  }

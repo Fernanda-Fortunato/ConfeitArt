@@ -1,0 +1,82 @@
+@font-face {
+    font-family: "minhaFonte";
+    src: url(/src/assets/fonts/CaviarDreams.ttf) format("truetype");
+  }
+  
+  .title {
+    color: #5b2f2d;
+    margin-top: 20px;
+    text-align: center;
+    font-family: "minhaFonte";
+  }
+  
+  .Agora {
+    text-decoration: none;
+    color: #fb8f6d;
+    background-color: #5b2f2d;
+    padding-bottom: 5px;
+    padding-left: 3px;
+    padding-right: 3px;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  
+  .ContainerSimbolo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: absolute;
+    margin-left: 110px;
+    margin-top: 40px;
+  }
+  .box2 {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 200px;
+    margin-top: 190px;
+  }
+  
+  .Logo1 {
+    width: 450px;
+  }
+  
+  @media (max-width: 767px) {
+    .title {
+      font-size: 15px;
+    }
+    .ContainerSimbolo {
+      display: flex;
+      position: relative;
+      width: 50%;
+      margin: 0 auto;
+      margin-left: 110px;
+      margin-right: 110px;
+      margin-top: 10px;
+    }
+    .box2 {
+      margin-top: 10px;
+      margin-left: 110px;
+      float: left;
+      margin-right: 0;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .title {
+      font-size: 20px;
+    }
+    .Logo1 {
+      margin: auto;
+      width: 90%;
+    }
+    .ContainerSimbolo {
+      display: flex;
+      position: relative;
+      justify-content: flex-start;
+    }
+    .box2 {
+      margin-top: 140px;
+      margin-right: 80px;
+    }
+  }
+      
